@@ -18,5 +18,5 @@ setuptools.setup(name=SRC_REPO, version=__version__, author=AUTHOR_USER_NAME
                      "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues"
                  },
                  package_dir={"":"src"}
-                 packages=setuptools.find_packages(where="src")
+                 packages=setuptools.find_packages(where="src"))
                  
