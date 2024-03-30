@@ -1,13 +1,14 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from textSummarizer.logging import logger
+#from textSummarizer.logging import logger
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
 from typing import Any
 
-
+# For Windows
+#set PYTHONPATH=%PYTHONPATH%;C:\Users\prasa\OneDrive\Desktop\DSA hackathons\Text summarizer for studiying\Text-summarizer-cicd
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
