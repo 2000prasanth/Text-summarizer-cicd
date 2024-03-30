@@ -28,7 +28,8 @@ setuptools.setup(
     description="A small python package for NLP app",
     long_description=long_description,
     long_description_content="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    #url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    ,url=f"https://drive.google.com/drive/folders/1Ag3N4ZAGeap079479FnM6HjeTdxqNZBo?usp=sharing"
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
